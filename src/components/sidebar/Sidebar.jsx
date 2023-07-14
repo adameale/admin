@@ -1,5 +1,6 @@
 import { AssessmentOutlined, GradingOutlined, Inventory2Outlined, LineStyleOutlined, MailOutlineOutlined, ManageAccountsOutlined, MessageOutlined, PaidOutlined, Person2Outlined, ReportProblemOutlined, TimelineOutlined, TrendingUpOutlined } from '@mui/icons-material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './sidebar.css'
 function Sidebar() {
   return (
@@ -8,10 +9,12 @@ function Sidebar() {
         <div className="sidebarMenu">
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className="sidebarList">
+              <Link  className='link' to="/" >
                 <li className="sidebarListItem active">
                  <LineStyleOutlined className='sidebarIcon'/>  
                  Home 
                 </li>
+                </Link>
 
                 <li className="sidebarListItem">
                  <TimelineOutlined className='sidebarIcon'/>  

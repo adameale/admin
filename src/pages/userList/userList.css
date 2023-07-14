@@ -26,9 +26,7 @@
 }
 
 .userListDelete{
-    border: none;
-    border-radius: 10px;
-    padding: 5px 10px;
-    background-color: rgb(239, 57, 51);
+   color: red;
+    
     cursor: pointer;
 }

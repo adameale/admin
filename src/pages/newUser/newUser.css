@@ -1,0 +1,22 @@
+.newUser{
+    flex: 4;
+}
+
+.newUserForm{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.newUserTitle{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.newUserItem{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-left: 10px;
+}
