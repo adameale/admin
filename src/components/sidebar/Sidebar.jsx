@@ -31,16 +31,19 @@ function Sidebar() {
         <div className="sidebarMenu">
             <h3 className="sidebarTitle">Quick Menu</h3>
             <ul className="sidebarList">
+              <Link className='link' to="./users">
                 <li className="sidebarListItem ">
                  <Person2Outlined className='sidebarIcon'/>  
                  Users 
                 </li>
+                </Link>
 
+                <Link className='link' to="./products">
                 <li className="sidebarListItem">
                  <Inventory2Outlined className='sidebarIcon'/>  
                  Products 
                 </li>
-
+                </Link>
                 <li className="sidebarListItem ">
                  <PaidOutlined className='sidebarIcon'/>  
                 Transactions

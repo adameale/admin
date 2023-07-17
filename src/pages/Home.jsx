@@ -5,6 +5,7 @@ import "./home.css"
 import { userData } from '../dummyData'
 import WidgetSm from '../components/widgetSm/WidgetSm'
 import WidgetLg from '../components/widgetLg/WidgetLg'
+
 function Home() {
   return (
     <div className='home'>
